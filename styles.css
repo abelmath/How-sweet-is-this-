@@ -1,0 +1,78 @@
+body {
+    font-family: 'Your Custom Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://www.shutterstock.com/image-photo/hershey-pa-usa-november-26-260nw-1572196744.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0; /* Fallback background color */
+}
+
+header, footer {
+    background-color: #ff3399; /* A shade of pink */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.candy- images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.candy-image {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.candy-image:hover {
+    transform: scale(1.1);
+}
+.candy {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* hover effect */
+}
+.contact-form:hover {
+    color: #ffcc00; /* text color on hover */
+    cursor: pointer;}
+.company-info:hover p {
+    color: #ffcc00; /*  text color on hover */
+    cursor: pointer;
+}
+.candy:hover {
+    transform: scale(1.1); /*  hover effect */
+}
+
+.content {
+    background: linear-gradient(to right, #ff99cc, #ff6699); /* Pinkish gradient */
+}
